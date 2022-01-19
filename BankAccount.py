@@ -1,6 +1,6 @@
 class BankAccount:
     all_accounts = []
-    def __init__(self, interest_rate, balance = 0): 
+    def __init__(self, interest_rate = 0, balance = 0): 
         self.interest_rate = interest_rate / 100
         self.balance = balance
         BankAccount.all_accounts.append(self)
